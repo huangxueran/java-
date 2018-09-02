@@ -1,0 +1,79 @@
+<!DOCTYPE html><!--申明文档类型-->
+<html><!--页面开始-->
+	<head><!--头部区域-->
+		<title> java基础班-力量</title><!--标题-->
+		<meta charset="utf-8" /><!--申明编码集 中文编码GBK GB2312 国际编码utf-8-->
+		<meta name="keywords" content="关键字,关键词" /><!--关键字,关键词-->
+		<meta name="description" content="简介和描述" />
+		<style type="text/css">
+			*{margin:0;padding:0;}
+			p,ul,li,h1,h2,h3,h4,h5,h6,div{margin:0;padding:0;}/*群组选择器*/
+			ol,ul{list-style:none;}/*去掉小黑圆点*/
+			a{text-decoration:none;}/*去下划线*/
+			img{border:none;}
+			    /*查看选择器有两个地方:*/
+                /*1.样式*/
+                /*2.标签它本身*/
+            .list,.box1,#btn{
+            		color:red;
+            		font-size:30px;
+            	  }
+            #box1 .box1_b{
+            		color:red;
+            		font-size:30px;
+            		}
+            #box1 #box1_b a{
+                color:red;
+            }
+             .ulList > li{
+             				color:red;
+             				font-size:40px;
+             			}
+             .box3 > p{
+             				color:red;
+             				font-size:20px;
+             			}
+		</style>
+</head>
+<body>
+    <ul>
+        <li class="list">迈向第一</li>
+    </ul>
+    <div class="box1">学无止境</div>
+    <a href="#" id="btn">山竹c</a>
+
+    	<div id="box1">爷爷
+    		<div class="box1_b">
+                爸爸
+    			<div class="one">老大</div>
+    			<div class="two">你</div>
+    			<a href="#">我比较特别</a>
+    		</div>
+    	</div>
+
+    	<ul class="ulList">
+        		<li>二哈</li>
+        		<li>宝宝
+        			<p>我是辅助</p>
+        		</li>
+        		<li>瓜皮</li>
+        		<p></p>
+        	</ul>
+
+         <div class="box3">
+         		<p>老大</p>
+         		<p>老二</p>
+         		<p>老三</p>
+         		<p>老幺
+         			<span>瓜皮
+         				<span>还是撒谎</span>
+         			</span>
+         		</p>
+         		<div>hahah
+         		</div>
+
+         	</div>
+         	<span>瓜皮</span>
+
+</body>
+</html><!--页面结束-->

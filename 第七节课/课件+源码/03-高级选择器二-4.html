@@ -1,0 +1,77 @@
+<!DOCTYPE html><!--申明文档类型-->
+<html><!--页面开始-->
+	<head><!--头部区域-->
+		<title> java基础班-力量</title><!--标题-->
+		<meta charset="utf-8" /><!--申明编码集 中文编码GBK GB2312 国际编码utf-8-->
+		<meta name="keywords" content="关键字,关键词" /><!--关键字,关键词-->
+		<meta name="description" content="简介和描述" />
+		<style type="text/css">
+			*{margin:0;padding:0;}
+			p,ul,li,h1,h2,h3,h4,h5,h6,div{margin:0;padding:0;}/*群组选择器*/
+			ol,ul{list-style:none;}/*去掉小黑圆点*/
+			a{text-decoration:none;}/*去下划线*/
+			img{border:none;}
+
+         .box1 + div{
+         				color:red;
+         				font-size:30px;
+         			}
+         			div[class]{
+         				width:200px;
+         				height:30px;
+         				border:2px solid red;
+         			}
+         			div[class="box1"]{
+         				width:300px;
+         				height:30px;
+         				border:2px solid blue;
+         			}
+         			div[class~="box2"]{
+         				width:300px;
+         				height:100px;
+         				background:pink;
+         			}
+         		    div[class|="box3"]{
+                    		text-decoration:underline;
+                    		}
+                    div[title][class~="box2"]{
+                    				border-style:dotted;
+                    			}
+		</style>
+</head>
+<body>
+<!--
+		2 3 4
+		他姓王,个头最大,但是在家里排行老八,那天他捡到一个蛋
+		王八蛋
+
+		6 9
+		7 6
+-->
+     <div class="box1" title="hh">瓜皮一号</div>
+     	<div class="box2 box1">瓜皮二号
+     		<a href="#" name="haha">哈哈哈哈</a>
+     	</div>
+     	<div class="box3 box2" title="hh">瓜皮三号</div>
+     	<div class="box2">瓜皮四号</div>
+     	<div class="box2box3">瓜皮五号</div>
+     	<div class="box3-box2">瓜皮六号</div>
+     	<div class="box2-box3">瓜皮七号</div>
+     	<div class="box2_box3">瓜皮八号</div>
+     	<div class="box3">瓜皮九号</div>
+     	<div id="box2" title="hhh">瓜皮十号</div>
+
+
+     	<ul>
+     		<li class="li">脉</li>
+     		<li id="li">BigFF</li>
+     		<li>帅帅</li>
+     	</ul>
+     	<img src="img/1.jpg" alt="" class="" title="wn" />
+
+
+
+
+
+     </body>
+     </html><!--页面结束-->
