@@ -1,0 +1,66 @@
+<!DOCTYPE html><!--申明文档类型-->
+<html><!--页面开始-->
+	<head><!--头部区域-->
+		<title> java基础班-力量</title><!--标题-->
+		<meta charset="utf-8" /><!--申明编码集 中文编码GBK GB2312 国际编码utf-8-->
+		<meta name="keywords" content="关键字,关键词" /><!--关键字,关键词-->
+		<meta name="description" content="简介和描述" />
+		<style type="text/css">
+			*{margin:0;padding:0;}
+			p,ul,li,h1,h2,h3,h4,h5,h6,div{margin:0;padding:0;}/*群组选择器*/
+			ol,ul{list-style:none;}/*去掉小黑圆点*/
+			a{text-decoration:none;}/*去下划线*/
+			img{border:none;}
+				div{
+            				font-size:40px;
+            			}
+            #box #topcon .con a{
+                    color: yellow;
+            }
+              #box .top .con a{
+                       color: green;
+                        }
+               #box2 #topcon2 .con2 p span{
+                    color:red;
+               }
+               #box2 #topcon2 .con2 .txt span{
+               				color:blue;
+               			}
+                #box2 #topcon2 .con2 .txt span a{
+                    color:red;
+                }
+                #box2 #topcon2 .con2 .txt{
+                    font-size: 30px;
+                }
+                 .box2 #topcon2 .con2 #txt2{
+                      font-size: 12px;
+                                }
+		</style>
+</head> 
+<body>
+    <!--
+    		基本选择器的优先级:
+    		* < tagName < class < id
+    -->
+<div class="box1" id="box">
+		<div class="top" id="topcon">
+			<div class="con">
+				<a href="">11哈哈哈,没有办法,就是这么强大</a>
+			</div>
+		</div>
+	</div>
+
+        <div class="box2" id="box2">
+                <div class="top2" id="topcon2">
+                    <div class="con2">
+                    <p class="txt" id="txt2">
+                    <span>
+                        <a href="">22</a>
+                        </span>哈哈哈,没有办法,就是这么强大
+                    </p>
+                    </div>
+                </div>
+</div>
+<a href="">22哈哈哈,没有办法,就是这么强大</a>
+</body>
+</html><!--页面结束-->

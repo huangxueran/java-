@@ -11,9 +11,15 @@
 			ol,ul{list-style:none;}/*去掉小黑圆点*/
 			a{text-decoration:none;}/*去下划线*/
 			img{border:none;}
-            a{
-            color:red;
+            #box #topcon .con a{
+                    color: yellow;
             }
+              #box .top .con a{
+                       color: green;
+                        }
+               #box2 #topcon2 .con2 p span{
+                    color:red;
+               }
 		</style>
 </head>
 <body>
@@ -22,12 +28,20 @@
     		* < tagName < class < id
     -->
 <div class="box1" id="box">
-        <div class="top">
+        <div class="top" id="topcon">
             <div class="con">
             <a href="">11哈哈哈,没有办法,就是这么强大
             </a>
             </div>
         </div>
+
+        <div class="box2" id="box2">
+                <div class="top2" id="topcon2">
+                    <div class="con2">
+                    <p class="txt"><span>22</span></span>哈哈哈,没有办法,就是这么强大
+                    </p>
+                    </div>
+                </div>
 </div>
 <a href="">22哈哈哈,没有办法,就是这么强大</a>
 </body>
